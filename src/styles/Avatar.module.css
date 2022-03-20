@@ -1,0 +1,8 @@
+.Avatar {
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+ }
+ 
+ .Avatar:hover {
+    transform: scale(1.1);
+ }

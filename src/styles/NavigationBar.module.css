@@ -1,0 +1,31 @@
+.AuthForm {
+   padding: 5%;
+   background-color: #f6f8fa;
+   border-radius: 3%;
+   border: 1px solid #d8dee4;
+}
+
+.RegistrationPanelButtons {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.Avatar {
+   cursor: pointer;
+   transition: transform 0.2s ease-in-out;
+}
+
+.Avatar:hover {
+   transform: scale(1.1);
+}
+
+.SettingsButton {
+   cursor: pointer;
+   transition: transform 0.5s ease-in-out;
+}
+
+.SettingsButton:hover {
+   transform: rotate(180deg) scale(1.1);
+}

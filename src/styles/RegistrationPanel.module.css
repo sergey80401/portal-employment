@@ -1,0 +1,13 @@
+.RegistrationPanel {
+    padding: 5%;
+    background-color: #f6f8fa;
+    border-radius: .25rem;
+    border: 1px solid #d8dee4;
+ }
+
+ .RegistrationPanelButtons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+ }
